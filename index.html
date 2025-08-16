@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Личный сайт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Этап 1: персонаж -->
+  <div id="character">
+    <img id="char-img" src="images/character-closed.png" alt="Персонаж">
+  </div>
+  <div id="dialogue"></div>
+  <div id="skip">Skip</div>
+
+  <!-- Этап 2: CMD и загрузка -->
+  <div id="cmd"><pre id="cmd-text"></pre></div>
+  <div id="xp-logo">Windows XP</div>
+  <div id="xp-bar"><div id="xp-progress"></div></div>
+
+  <!-- Этап 3: Рабочий стол -->
+  <div id="desktop">
+    <img id="desktop-bg" src="images/desktop-background.jpg" alt="Фон рабочего стола">
+    <div id="icons-container">
+      <div class="icon" id="icon1">
+        <img src="images/my-computer.png" alt="My Computer"><span>My Computer</span>
+      </div>
+      <div class="icon" id="icon2">
+        <img src="images/recycle-bin.png" alt="Recycle Bin"><span>Recycle Bin</span>
+      </div>
+    </div>
+    <div id="windows-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
